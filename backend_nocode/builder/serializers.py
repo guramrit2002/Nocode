@@ -31,6 +31,17 @@ class CreateProjectSerializer(serializers.Serializer):
         }
         
         if not not_exists:
-            response.update({"message":"Project with same name already exits"})
-        
+            response.update({"message":"Project with same name already exists"})
+            
         return response
+
+class MarkPublishedSerializer(serializers.Serializer):
+    
+    is_published = serializers.BooleanField(required=True)
+    
+class RequestParamsSerializer(serializers.Serializer):
+    
+    id = serializers.IntegerField(required=False)
+    is_published = serializers.BooleanField(required=False)
+    created_at = serializers.DateField(required=False)
+    page = serializers.IntegerField(required=False)
