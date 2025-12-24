@@ -1,4 +1,3 @@
-import datetime
 from rest_framework import serializers
 from .models import Project, ProjectJson
 
@@ -9,32 +8,12 @@ class ProjectSerializer(serializers.ModelSerializer):
         model = Project
         fields = '__all__'
         
-class CreateProjectSerializer(serializers.Serializer):
+class CreateProjectSerializer(serializers.ModelSerializer):
     
-    name = serializers.CharField(max_length=200,required=True)
-    json = serializers.JSONField()
-    
-    
-    def create(self, validated_data):
-        project, not_exists = Project.objects.get_or_create(
-            name = validated_data.get("name")
-        )
-        json_p, is_json_created = ProjectJson.objects.get_or_create(
-            project = project,
-            json = validated_data.get("json")
-        )
+    class Meta:
+        model = Project
+        fields = ['name']
         
-        response = {
-            "project_id":project.id,
-            "project_name":project.name,
-            "project_json":json_p.json
-        }
-        
-        if not not_exists:
-            response.update({"message":"Project with same name already exists"})
-            
-        return response
-
 class MarkPublishedSerializer(serializers.Serializer):
     
     is_published = serializers.BooleanField(required=True)
@@ -45,3 +24,35 @@ class RequestParamsSerializer(serializers.Serializer):
     is_published = serializers.BooleanField(required=False)
     created_at = serializers.DateField(required=False)
     page = serializers.IntegerField(required=False)
+
+class ProjectJsonSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = ProjectJson
+        fields = '__all__'
+class SaveProjectSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = ProjectJson
+        fields = ['project', 'json']
+        
+    def create(self, validated_data):
+        project_json_obj, created = ProjectJson.objects.update_or_create(
+            project=validated_data['project'],
+            defaults={'json': validated_data['json']}
+        )
+        return project_json_obj
+    
+class PublishProjectSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = ProjectJson
+        fields = ['project', 'json', 'html']
+        
+    def create(self, validated_data):
+        project_json_obj, created = ProjectJson.objects.update_or_create(
+            project=validated_data['project'],
+            defaults={'json': validated_data['json'],
+                      'html': validated_data.get('html', '')}
+        )
+        return project_json_obj

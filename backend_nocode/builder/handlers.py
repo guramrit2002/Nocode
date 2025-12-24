@@ -4,9 +4,11 @@ from django.conf import settings
 from django.core.paginator import Paginator
 from rest_framework import serializers
 from rest_framework import status
-from .models import Project
+from .models import Project, ProjectJson
 from .serializers import (ProjectSerializer, CreateProjectSerializer, 
-                        MarkPublishedSerializer, RequestParamsSerializer)
+                        MarkPublishedSerializer, RequestParamsSerializer, 
+                        SaveProjectSerializer, ProjectJsonSerializer, 
+                        PublishProjectSerializer)
 
 class ProjectHandler:
     
@@ -45,29 +47,91 @@ class ProjectHandler:
                     status.HTTP_400_BAD_REQUEST)
     
     def post_project(self,request):
-        
         try:
             data = deepcopy(request.data)
             serializer = CreateProjectSerializer(data=data)
             if serializer.is_valid():
-                data = serializer.save()
-                message = data.get("message")
-                data.pop("message")
-                print(message)
-                if message:
-                    return (message, {"data": data}, 
-                        status.HTTP_201_CREATED)
-                    
-                return ("Project created", {"data": data}, 
+                saved_project = serializer.save()
+                return ("Project created successfully", 
+                        ProjectSerializer(saved_project,many=False).data,
                         status.HTTP_201_CREATED)
             else:
-                return ("Serializer Error",{"errors": serializer.errors},
+                return ("Serializer Error", {"errors": serializer.errors},
                         status.HTTP_400_BAD_REQUEST)
-                        
         except Exception as e:
             return ("Something Went Wrong", {"error": str(e)},
                     status.HTTP_400_BAD_REQUEST)
     
+    def save_project(self,request):
+        try:
+            data = deepcopy(request.data)
+            project_json = ProjectJson.objects.get(project=data.get('project'))
+            
+            if project_json:
+                if project_json.html:
+                    return ("Cannot save a published project", {},
+                            status.HTTP_400_BAD_REQUEST)
+                    
+                # Update existing ProjectJson entry
+                serializer = SaveProjectSerializer(project_json, data=data, 
+                                                  partial=True)
+                if serializer.is_valid():
+                    updated_project_json = serializer.save()
+                    return ("Project JSON saved successfully", 
+                            ProjectJsonSerializer(updated_project_json).data,
+                            status.HTTP_200_OK)
+                else:
+                    return ("Serializer Error", {"errors": serializer.errors},
+                            status.HTTP_400_BAD_REQUEST)
+            
+            serializer = SaveProjectSerializer(data=data)
+            if serializer.is_valid():
+                saved_project_json = serializer.save()
+                return ("Project JSON saved successfully", 
+                        ProjectJsonSerializer(saved_project_json).data,
+                        status.HTTP_201_CREATED)
+            else:
+                return ("Serializer Error", {"errors": serializer.errors},
+                        status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            return ("Something Went Wrong", {"error": str(e)},
+                    status.HTTP_400_BAD_REQUEST)
+            
+    def publish_project(self,request):
+        try:
+            data = deepcopy(request.data)
+            project_json = ProjectJson.objects.get(project=data.get('project'))
+            
+            if project_json:
+                 # Update existing ProjectJson entry
+                serializer = PublishProjectSerializer(project_json, data=data, 
+                                                    partial=True)
+                if serializer.is_valid():
+                    updated_project_json = serializer.save()
+                    return ("Project JSON published successfully", 
+                            ProjectJsonSerializer(updated_project_json).data,
+                            status.HTTP_200_OK)
+                else:
+                    return ("Serializer Error", {"errors": serializer.errors},
+                            status.HTTP_400_BAD_REQUEST)
+                    
+            # Create new ProjectJson entry if it doesn't exist
+            serializer = PublishProjectSerializer(data=data)
+            if serializer.is_valid():
+                saved_project_json = serializer.save()
+                saved_project_json.project.is_published = True
+                saved_project_json.project.save()
+                return ("Project JSON published successfully", 
+                        ProjectJsonSerializer(saved_project_json).data,
+                        status.HTTP_201_CREATED)
+            else:
+                return ("Serializer Error", {"errors": serializer.errors},
+                        status.HTTP_400_BAD_REQUEST)
+                    
+        except Exception as e:
+            return ("Something Went Wrong", {"error": str(e)},
+                    status.HTTP_400_BAD_REQUEST)
+            
     def put_project(self,request,pk):
         try:
             data = deepcopy(request.data)
@@ -83,11 +147,22 @@ class ProjectHandler:
                                            partial=True)
             if serializer.is_valid():
                 serializer.save()
-                return ("Project updated successfully", {"data": serializer.data},
+                return ("Project updated successfully", serializer.data,
                         status.HTTP_200_OK)
             else:
                 return ("Serializer Error", {"errors": serializer.errors},
                         status.HTTP_400_BAD_REQUEST)
+        except Project.DoesNotExist:
+            return ("Project not found", {}, status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return ("Something Went Wrong", {"error": str(e)},
+                    status.HTTP_400_BAD_REQUEST)
+    
+    def get_project_details(self,request,pk):
+        try:
+            project = Project.objects.get(id=pk)
+            serializer = ProjectSerializer(project,many=False)
+            return "Success", serializer.data, status.HTTP_200_OK
         except Project.DoesNotExist:
             return ("Project not found", {}, status.HTTP_404_NOT_FOUND)
         except Exception as e:
