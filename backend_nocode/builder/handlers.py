@@ -65,7 +65,8 @@ class ProjectHandler:
     def save_project(self,request):
         try:
             data = deepcopy(request.data)
-            project_json = ProjectJson.objects.get(project=data.get('project'))
+            project_json = ProjectJson.objects.filter(
+                project=data.get('project')).first()
             
             if project_json:
                 if project_json.html:
@@ -100,7 +101,8 @@ class ProjectHandler:
     def publish_project(self,request):
         try:
             data = deepcopy(request.data)
-            project_json = ProjectJson.objects.get(project=data.get('project'))
+            project_json = ProjectJson.objects.filter(
+                project=data.get('project')).first()
             
             if project_json:
                  # Update existing ProjectJson entry
