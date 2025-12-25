@@ -44,15 +44,38 @@ class SaveProjectSerializer(serializers.ModelSerializer):
         return project_json_obj
     
 class PublishProjectSerializer(serializers.ModelSerializer):
-    
+    is_published = serializers.BooleanField(write_only=True)
+
     class Meta:
         model = ProjectJson
-        fields = ['project', 'json', 'html']
-        
+        fields = ['project', 'json', 'is_published']
+
     def create(self, validated_data):
-        project_json_obj, created = ProjectJson.objects.update_or_create(
-            project=validated_data['project'],
-            defaults={'json': validated_data['json'],
-                      'html': validated_data.get('html', '')}
+        project = validated_data["project"]
+        is_published = validated_data.pop("is_published")
+        json_data = validated_data["json"]
+
+        project.is_published = is_published
+        project.save(update_fields=["is_published"])
+
+        project_json, _ = ProjectJson.objects.update_or_create(
+            project=project,
+            defaults={"json": json_data}
         )
-        return project_json_obj
+
+        return project_json
+
+    def update(self, instance, validated_data):
+        project = instance.project
+        is_published = validated_data.pop("is_published")
+        json_data = validated_data.get("json")
+
+        # Update Project
+        project.is_published = is_published
+        project.save(update_fields=["is_published"])
+
+        # Update ProjectJson
+        instance.json = json_data
+        instance.save(update_fields=["json"])
+
+        return instance
