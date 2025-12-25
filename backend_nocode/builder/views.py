@@ -70,3 +70,4 @@ class ProjectPublishSaveViewSet(ViewSet):
             import traceback
             traceback.print_exc()
             return response("Something Went wrong",{"error": str(e)})
+
