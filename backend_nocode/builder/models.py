@@ -4,7 +4,7 @@ from django.db import models
 
 class Project(models.Model):
     
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200,unique=True)
     created_at = models.DateTimeField(auto_now_add=True)
     is_published = models.BooleanField(default=False)
     url = models.URLField(null=True,blank=True)
@@ -14,7 +14,6 @@ class Project(models.Model):
 class ProjectJson(models.Model):
     project = models.OneToOneField(Project,on_delete=models.CASCADE)
     json = models.JSONField()
-    html = models.TextField(default="",null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):

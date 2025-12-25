@@ -44,11 +44,12 @@ class SaveProjectSerializer(serializers.ModelSerializer):
         return project_json_obj
     
 class PublishProjectSerializer(serializers.ModelSerializer):
-    
+    is_published = serializers.BooleanField(write_only=True)
+
     class Meta:
         model = ProjectJson
-        fields = ['project', 'json', 'html']
-        
+        fields = ['project', 'json', 'is_published']
+
     def create(self, validated_data):
         project = validated_data["project"]
         is_published = validated_data.pop("is_published")
