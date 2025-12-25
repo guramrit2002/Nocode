@@ -79,3 +79,8 @@ class PublishProjectSerializer(serializers.ModelSerializer):
         instance.save(update_fields=["json"])
 
         return instance
+    
+class JsonProjectSerializer(serializers.Serializer):
+    
+    is_published = serializers.BooleanField()
+    json = serializers.JSONField()

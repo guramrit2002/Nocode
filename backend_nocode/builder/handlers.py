@@ -8,7 +8,7 @@ from .models import Project, ProjectJson
 from .serializers import (ProjectSerializer, CreateProjectSerializer, 
                         MarkPublishedSerializer, RequestParamsSerializer, 
                         SaveProjectSerializer, ProjectJsonSerializer, 
-                        PublishProjectSerializer)
+                        PublishProjectSerializer,JsonProjectSerializer)
 
 class ProjectHandler:
     
@@ -167,6 +167,22 @@ class ProjectHandler:
             return "Success", serializer.data, status.HTTP_200_OK
         except Project.DoesNotExist:
             return ("Project not found", {}, status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return ("Something Went Wrong", {"error": str(e)},
+                    status.HTTP_400_BAD_REQUEST)
+    
+    def get_status_json(self,request,pk):
+        try:
+            project = Project.objects.select_related('projectjson').filter(id=pk).values(
+                'is_published',
+                'projectjson__json'
+            ).first()
+            project = {
+                "is_published": project['is_published'],
+                "json": project['projectjson__json']
+            }
+            serializer = JsonProjectSerializer(project)
+            return "Success", serializer.data, status.HTTP_200_OK
         except Exception as e:
             return ("Something Went Wrong", {"error": str(e)},
                     status.HTTP_400_BAD_REQUEST)
