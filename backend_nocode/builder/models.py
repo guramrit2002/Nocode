@@ -16,7 +16,6 @@ class ProjectJson(models.Model):
     
     project = models.OneToOneField(Project,on_delete=models.CASCADE)
     json = models.JSONField()
-    html = models.TextField(default="",null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
