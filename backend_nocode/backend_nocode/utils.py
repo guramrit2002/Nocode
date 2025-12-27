@@ -2,12 +2,11 @@ import datetime
 from rest_framework.response import Response
 
 def response(message:str, data:any, status:int)->Response:
-    data = {"data":data}
-    print({
-            **{"message":message},
-            **data,
-            **{"timestamp":datetime.datetime.now()}
-        })
+    
+    if "errors" in data or "error" in data:
+        data = {"error":data["errors"]} if "errors" in data else {"error":data["error"]}
+    else:
+        data = {"data":data}
     return Response(
         {
             **{"message":message},
