@@ -25,4 +25,4 @@ jobs:
 
       # 4. Run Django tests inside container
       - name: Run tests
-        run: docker-compose run --rm web python manage.py test
+        run: docker compose run --rm web python manage.py test
