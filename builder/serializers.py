@@ -9,10 +9,17 @@ class ProjectSerializer(serializers.ModelSerializer):
         fields = '__all__'
         
 class CreateProjectSerializer(serializers.ModelSerializer):
+
     
     class Meta:
         model = Project
-        fields = ['name']
+        fields = ['name','user']
+        extra_kwargs = {
+            'user': {
+                'required': False,
+                'allow_null': True 
+            }
+        }
         
 class MarkPublishedSerializer(serializers.Serializer):
     

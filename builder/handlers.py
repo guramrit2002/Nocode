@@ -40,15 +40,14 @@ class ProjectHandler:
                 serializer = ProjectSerializer(paginator_page_obj, many=True)
             return "Success", serializer.data, status.HTTP_200_OK
         except serializers.Serializer.errors as se:
-            print(se)
-            import traceback
-            traceback.print_exc()
             return ("Serializer Error", {"error": str(se)},
                     status.HTTP_400_BAD_REQUEST)
     
     def post_project(self,request):
         try:
             data = deepcopy(request.data)
+            user = request.user
+            data['user'] = 1
             serializer = CreateProjectSerializer(data=data)
             if serializer.is_valid():
                 saved_project = serializer.save()
@@ -59,6 +58,7 @@ class ProjectHandler:
                 return ("Serializer Error", {"errors": serializer.errors},
                         status.HTTP_400_BAD_REQUEST)
         except Exception as e:
+            
             return ("Something Went Wrong", {"error": str(e)},
                     status.HTTP_400_BAD_REQUEST)
     
@@ -69,10 +69,6 @@ class ProjectHandler:
                 project=data.get('project')).first()
             
             if project_json:
-                if project_json.html:
-                    return ("Cannot save a published project", {},
-                            status.HTTP_400_BAD_REQUEST)
-                    
                 # Update existing ProjectJson entry
                 serializer = SaveProjectSerializer(project_json, data=data, 
                                                   partial=True)
