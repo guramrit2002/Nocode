@@ -12,10 +12,53 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 import os
 from pathlib import Path
+from datetime import timedelta
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+
+    'formatters': {
+        'verbose': {
+            'format': (
+                '[{asctime}] {levelname} '
+                '{name} {filename}:{lineno} '
+                '{funcName}() - {message}'
+            ),
+            'style': '{',
+        },
+    },
+
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs/django.log',
+            'formatter': 'verbose',
+        },
+    },
+
+    # ROOT (fallback)
+    'root': {
+        'handlers': ['console', 'file'],
+        'level': 'INFO',   # IMPORTANT
+    },
+
+    # 🔥 FORCE YOUR APP TO DEBUG
+    'loggers': {
+        'backend_nocode': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -40,11 +83,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'builder',
     'dashboard',
+    'accounts',
     'rest_framework',
     'corsheaders'
 ]
 
 MIDDLEWARE = [
+    'accounts.middlewares.request_log_middleware.RequestLogMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     "corsheaders.middleware.CorsMiddleware",
@@ -54,6 +99,15 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=30),
+    "ROTATE_REFRESH_TOKENS": True,
+    "BLACKLIST_AFTER_ROTATION": True,
+
+    "AUTH_HEADER_TYPES": ("Bearer",),
+}
 
 CORS_ALLOW_ALL_ORIGINS = True
 

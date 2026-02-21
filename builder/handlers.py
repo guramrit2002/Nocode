@@ -1,4 +1,4 @@
-import datetime
+import datetime, logging
 from copy import deepcopy
 from django.conf import settings
 from django.core.paginator import Paginator
@@ -10,10 +10,12 @@ from .serializers import (ProjectSerializer, CreateProjectSerializer,
                         SaveProjectSerializer, ProjectJsonSerializer, 
                         PublishProjectSerializer,JsonProjectSerializer)
 
+logger = logging.getLogger(__name__)
 class ProjectHandler:
     
     def get_projects(self,request):
         try:
+            logger.debug("Received request to get projects with params: %s",request.query_params)
             params = deepcopy(request.query_params)
             if not params:
                 projects = Project.objects.all()
@@ -21,7 +23,6 @@ class ProjectHandler:
             else:
                 params_serializer = RequestParamsSerializer(data=params)
                 if not params_serializer.is_valid():
-                    print("Params errors:", params_serializer.errors)
                     return ("Invalid Query Parameters", {},
                             status.HTTP_400_BAD_REQUEST)
                 filter_params = {}

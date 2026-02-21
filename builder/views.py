@@ -1,3 +1,4 @@
+import logging
 from copy import deepcopy
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
@@ -8,14 +9,18 @@ from .handlers import ProjectHandler
 from backend_nocode.utils import response
 # Create your views here.
 
-
+logger = logging.getLogger(__name__)
 class ProjectViewSet(ViewSet):
     
     def list(self, request):
         try:
+            print("LOGGER NAME:", logger.name)
+            print("LOGGER LEVEL:", logger.level)
+            print("LOGGER EFFECTIVE LEVEL:", logger.getEffectiveLevel())
+            print("ROOT LEVEL:", logging.getLogger().level)
             obj = ProjectHandler()
             message, date, status = obj.get_projects(request)
-            print("response from hanldler", message, date, status)
+            logger.info("response from handler: %s, %s, %s", message, date, status)
             return response(message=message, data=date, status=status)
         except Exception as e:
             import traceback
@@ -59,7 +64,7 @@ class ProjectViewSet(ViewSet):
     def json_status(self,request,pk):
         try:
             obj = ProjectHandler()
-            message, date, status = obj.get_status_json(request,pk)
+            message, date, status = obj.get_status_git json(request,pk)
             return response(message=message, data=date, status=status)
         except Exception as e:
             import traceback
