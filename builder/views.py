@@ -64,7 +64,7 @@ class ProjectViewSet(ViewSet):
     def json_status(self,request,pk):
         try:
             obj = ProjectHandler()
-            message, date, status = obj.get_status_git json(request,pk)
+            message, date, status = obj.get_status_json(request,pk)
             return response(message=message, data=date, status=status)
         except Exception as e:
             import traceback

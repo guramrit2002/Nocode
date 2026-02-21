@@ -17,6 +17,7 @@ class MagicLinkViewSet(ViewSet):
     def request(self, request):
         try:
             email = request.data.get("email")
+            name = request.data.get("name")
             if not email:
                 return response(
                     "Email is required",
@@ -25,7 +26,7 @@ class MagicLinkViewSet(ViewSet):
 
             user, created = User.objects.get_or_create(
                 email=email,
-                defaults={"username": email.split("@")[0], "is_active": True},
+                defaults={"username": name, "is_active": True},
             )
 
             # 1. Generate raw token
