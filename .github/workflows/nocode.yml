@@ -11,24 +11,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      # 1️⃣ Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v4
 
+      # 2️⃣ Create .env file for Docker & Django
       - name: Create .env file
         run: |
           echo "SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }}" >> .env
-          echo "DEBUG=${{ secrets.DEBUG }}" >> .env
+          echo "DEBUG=${{ secrets.DEBUG || 'False' }}" >> .env
           echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> .env
 
-      - uses: docker/setup-buildx-action@v3
+      # 3️⃣ Set up Docker (Buildx)
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v3
 
+      # 4️⃣ Build Docker images
       - name: Build Docker images
         run: docker compose build
 
+      # 5️⃣ Verify SECRET_KEY is available (safe check)
+      - name: Verify env inside container
+        run: |
+          docker compose --env-file .env run --rm web \
+          sh -c 'echo "SECRET_KEY loaded -> ${SECRET_KEY:+YES}"'
+
+      # 6️⃣ Run Django migrations
       - name: Run migrations
-        run: docker compose run --rm web python manage.py migrate
+        run: |
+          docker compose --env-file .env run --rm web \
+          python manage.py migrate
 
+      # 7️⃣ Run Django tests
       - name: Run tests
-        run: docker compose run --rm web python manage.py test
+        run: |
+          docker compose --env-file .env run --rm web \
+          python manage.py test
 
+      # 8️⃣ Tear down containers & volumes
       - name: Tear down
         run: docker compose down -v
