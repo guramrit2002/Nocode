@@ -1,0 +1,913 @@
+[2026-02-17 19:27:35,097] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-17 19:27:37,273] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-17 19:29:27,715] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-17 19:30:15,686] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-17 19:30:16,332] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-17 19:30:17,396] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-17 19:30:17,871] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-17 19:31:02,900] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-17 19:32:43,492] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-17 19:33:30,571] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-17 19:33:31,356] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-17 19:33:32,707] INFO builder.views views.py:23 list() - response from handler: Success, [{'id': 1, 'name': 'p0', 'created_at': '2025-12-25T08:42:45.196255Z', 'is_published': True, 'url': None, 'user': 1}, {'id': 2, 'name': 'p1', 'created_at': '2025-12-25T08:54:47.659743Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 3, 'name': 'p1', 'created_at': '2026-02-17T18:53:22.578103Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 4, 'name': 'p1', 'created_at': '2026-02-17T19:08:05.560783Z', 'is_published': False, 'url': None, 'user': 1}], 200
+[2026-02-18 18:06:58,518] INFO builder.views views.py:23 list() - response from handler: Success, [{'id': 1, 'name': 'p0', 'created_at': '2025-12-25T08:42:45.196255Z', 'is_published': True, 'url': None, 'user': 1}, {'id': 2, 'name': 'p1', 'created_at': '2025-12-25T08:54:47.659743Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 3, 'name': 'p1', 'created_at': '2026-02-17T18:53:22.578103Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 4, 'name': 'p1', 'created_at': '2026-02-17T19:08:05.560783Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 5, 'name': 'p5', 'created_at': '2026-02-18T18:06:48.474882Z', 'is_published': False, 'url': None, 'user': 1}], 200
+[2026-02-18 18:19:57,731] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/urls.py changed, reloading.
+[2026-02-18 18:19:58,528] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:19:59,629] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/urls.py changed, reloading.
+[2026-02-18 18:20:00,181] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:20:03,292] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/urls.py changed, reloading.
+[2026-02-18 18:20:03,830] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:20:05,920] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/urls.py changed, reloading.
+[2026-02-18 18:20:06,377] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:20:07,553] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/urls.py changed, reloading.
+[2026-02-18 18:20:08,041] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:40:31,715] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:20,960] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:21,457] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:26,619] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:27,170] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:28,228] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:28,681] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:30,747] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:31,192] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:34,355] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:34,797] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:35,898] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:36,389] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:38,550] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:39,080] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:40,200] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:40,613] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:47,773] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:48,233] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:49,294] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:41:49,739] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:41:58,981] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:41:59,502] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:42:00,597] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:42:01,023] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:42:03,102] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:42:03,585] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:00,701] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:47:01,266] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:09,507] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:47:09,950] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:12,089] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:47:12,579] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:18,766] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:47:19,204] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:28,482] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:28,993] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:31,066] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:31,529] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:38,752] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:39,207] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:42,324] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:42,778] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:48,923] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:49,418] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:50,477] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:50,912] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:54,048] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:54,645] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:56,788] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:57,262] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:58,377] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:47:58,860] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:47:59,963] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:48:00,402] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:48:03,550] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:48:04,050] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:48:05,150] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:48:05,577] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:48:12,785] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:48:13,293] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:48:14,403] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:48:14,820] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:48:38,745] WARNING django.request log.py:246 log_response() - Method Not Allowed: /auth/send-request/
+[2026-02-18 18:48:58,972] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/send-request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8030/auth/send-request/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2026-02-18 18:49:17,311] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 18:49:17,908] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:49:24,130] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:49:24,571] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:49:25,669] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:49:26,140] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:49:48,647] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:49:49,121] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:06,475] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:06,966] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:09,077] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:09,520] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:12,632] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:13,262] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:15,404] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:15,881] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:18,980] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:19,449] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:27,647] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:28,087] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:30,213] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:30,681] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:33,885] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:34,356] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:35,417] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:35,847] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:43,040] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:43,587] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:48,768] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:49,217] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:53,323] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:53,786] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:55,865] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:56,345] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:50:58,418] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:50:58,891] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:51:05,118] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:51:05,582] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:51:12,777] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/send-request/
+Traceback (most recent call last):
+  File "/usr/src/app/accounts/views.py", line 17, in request
+    user = User.objects.get(email=email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/app/accounts/views.py", line 23, in request
+    return response("User with this email not found",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: response() missing 1 required positional argument: 'data'
+[2026-02-18 18:51:35,387] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:51:35,948] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:51:37,011] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:51:37,447] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:51:41,569] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:51:42,016] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:51:43,117] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:51:43,581] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:51:50,765] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/send-request/
+Traceback (most recent call last):
+  File "/usr/src/app/accounts/views.py", line 17, in request
+    user = User.objects.get(email=email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/app/accounts/views.py", line 23, in request
+    return response("User with this email not found",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: response() missing 1 required positional argument: 'data'
+[2026-02-18 18:52:44,010] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:52:44,560] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:52:45,648] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:52:46,150] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:53:05,517] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/send-request/
+Traceback (most recent call last):
+  File "/usr/src/app/accounts/views.py", line 17, in request
+    user = User.objects.get(email=email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/app/accounts/views.py", line 23, in request
+    return response("User with this email not found", None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/app/backend_nocode/utils.py", line 6, in response
+    if "errors" in data or "error" in data:
+       ^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+[2026-02-18 18:53:23,034] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:53:23,599] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:53:25,682] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:53:26,112] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:53:46,156] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/send-request/
+Traceback (most recent call last):
+  File "/usr/src/app/accounts/views.py", line 17, in request
+    user = User.objects.get(email=email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 639, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/app/accounts/views.py", line 23, in request
+    return response({"error":"User with this email not found"},
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: response() missing 1 required positional argument: 'data'
+[2026-02-18 18:54:08,118] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:54:08,678] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:54:09,783] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:54:10,231] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:54:15,412] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:54:15,887] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:54:22,083] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:54:22,589] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:54:29,792] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:54:30,259] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:54:32,390] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:54:32,939] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:54:35,060] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:54:35,506] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:55:32,843] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:55:33,434] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:55:37,549] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:55:38,055] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:55:39,153] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:55:39,591] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:55:43,742] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:55:44,193] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:55:48,743] WARNING django.request log.py:246 log_response() - Not Found: /auth/send-request/
+[2026-02-18 18:56:06,819] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:56:07,357] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:56:13,536] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:56:13,974] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:56:15,074] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:56:15,491] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:57:29,112] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:57:29,611] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:57:37,806] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:57:38,285] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:57:43,465] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:57:43,923] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:57:48,067] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:57:48,579] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:57:55,879] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:57:56,433] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 18:57:57,538] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 18:57:57,960] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:06,490] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:07,163] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:12,324] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:12,813] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:14,934] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:15,487] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:16,607] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:17,099] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:22,224] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:22,684] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:28,890] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:29,370] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:30,428] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:30,872] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:41,132] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:03:41,627] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:03:48,643] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/send-request/
+[2026-02-18 19:04:02,152] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:02,655] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:04:06,815] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:07,281] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:04:09,401] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:09,845] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:04:12,953] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:13,430] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:04:17,537] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:18,036] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:04:23,220] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:23,701] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:04:26,815] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:27,270] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:04:40,714] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:04:41,319] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:05:00,455] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:05:16,914] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:05:17,466] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:05:18,567] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:05:19,059] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:05:20,192] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:05:20,601] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:05:23,731] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:05:24,193] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:05:30,389] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:05:30,925] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:05:36,113] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:05:36,607] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:27,773] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:28,543] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:29,608] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:30,095] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:32,176] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:32,640] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:35,726] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:36,183] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:37,301] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:37,715] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:41,824] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:42,277] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:48,477] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:49,039] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:51,180] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:51,644] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:06:56,799] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/utils.py changed, reloading.
+[2026-02-18 19:06:57,309] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:14,732] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:15,327] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:16,437] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:16,863] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:18,944] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:19,378] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:20,545] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:21,035] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:39,492] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:40,022] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:43,137] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:43,591] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:47,690] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:48,140] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:49,191] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:49,631] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:51,733] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:52,162] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:07:56,298] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:07:56,917] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:08:02,107] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:08:02,617] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:08:08,847] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:08:09,328] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:08:10,416] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:08:10,923] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:08:28,286] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:08:28,737] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:09:01,449] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:09:01,969] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:09:06,118] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:09:06,626] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:09:08,746] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:09:09,234] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:09:11,339] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:09:11,877] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:09:14,009] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:09:14,594] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:09:28,034] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:09:28,568] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:09:29,674] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:09:30,159] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:12:42,227] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:12:42,832] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:12:45,997] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:12:46,554] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:12:49,685] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:12:50,360] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:12:53,529] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:12:54,058] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:15,578] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:16,098] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:18,346] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:18,798] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:26,025] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:26,557] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:28,660] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:29,111] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:31,225] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:31,680] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:36,888] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:37,360] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:38,473] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:38,916] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:13:55,334] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:13:55,903] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:14:15,390] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:14:15,970] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:15:25,591] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:15:26,353] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:16:20,488] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:16:21,034] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:16:23,112] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:16:23,547] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:16:25,615] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:16:26,047] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:16:27,102] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:16:27,563] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:16:31,724] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:16:32,304] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:18:05,175] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:18:05,692] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:18:06,791] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:18:07,265] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:18:09,389] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:18:09,859] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:18:19,079] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:18:19,620] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:18:25,819] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:18:26,361] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:18:28,438] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:18:28,907] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:22:24,676] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:23:09,689] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:23:10,336] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:24:07,482] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-18 19:24:08,065] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:24:10,162] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-18 19:24:10,753] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:24:11,884] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-18 19:24:12,480] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:28:33,401] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:28:33,971] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:15,410] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:16,026] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:19,113] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:19,556] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:20,618] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:21,078] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:28,300] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:28,783] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:39,067] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:39,564] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:41,680] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:42,140] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:47,256] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:47,796] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:48,849] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:49,314] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:30:54,457] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:30:54,940] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:31:23,530] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:31:24,080] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:31:26,208] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:31:26,658] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:31:31,778] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:31:32,300] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:31:34,444] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:31:34,892] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:31:37,986] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:31:38,408] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:32:10,061] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:32:10,674] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:32:13,795] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:32:14,241] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:32:20,369] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:32:20,877] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:32:22,952] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:32:23,430] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:32:31,622] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:32:32,195] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:32:33,255] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:32:33,714] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:32:36,813] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:32:37,246] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:33:21,087] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:33:21,650] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:33:23,752] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:33:24,228] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:33:26,305] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:33:26,893] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:33:27,950] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:33:28,401] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:33:30,481] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:33:30,969] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:34:33,448] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 19:34:34,030] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:34:36,185] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 19:34:36,726] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:34:39,834] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 19:34:40,283] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:34:49,002] WARNING django.request log.py:246 log_response() - Method Not Allowed: /auth/verify/
+[2026-02-18 19:34:55,773] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 19:34:56,360] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:34:57,700] WARNING django.request log.py:246 log_response() - Bad Request: /auth/verify/
+[2026-02-18 19:35:18,954] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:35:19,530] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:35:40,039] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-18 19:35:40,663] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:36:46,022] WARNING django.request log.py:246 log_response() - Method Not Allowed: /auth/verify/
+[2026-02-18 19:36:49,702] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-18 19:37:11,785] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:37:12,324] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:37:20,762] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-18 19:37:25,709] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-18 19:37:40,077] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:37:40,647] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:37:43,328] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-18 19:38:22,652] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:38:23,307] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:38:28,535] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:38:29,165] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:38:36,438] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:38:36,989] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:38:38,099] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:38:38,515] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:38:48,779] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:38:49,334] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:38:54,552] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:38:55,191] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:39:00,379] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:39:00,955] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:39:03,117] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:39:03,663] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:39:05,860] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:39:06,330] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:39:11,378] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-18 19:39:22,723] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-18 19:39:23,328] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-18 19:39:23,473] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-19 17:48:58,051] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:48:58,671] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:49:02,854] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:49:03,496] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:49:05,643] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:49:06,149] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:49:11,332] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:49:11,839] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:49:15,010] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:49:15,493] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:49:18,655] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:49:19,184] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:54:07,242] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:54:07,835] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:54:16,064] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:54:16,622] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:54:21,811] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:54:22,306] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:54:23,422] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:54:23,888] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:54:27,025] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:54:27,508] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:54:47,079] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:54:47,736] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:55:01,091] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:55:01,656] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:55:04,801] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:55:05,253] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:55:45,135] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:55:45,679] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:55:50,930] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:55:51,397] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:55:59,638] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:56:00,180] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:56:05,369] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:56:05,825] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:56:11,056] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:56:11,600] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:59:12,526] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:59:13,079] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:59:40,796] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:59:41,297] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 17:59:49,534] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 17:59:50,080] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:00,402] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:00,947] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:30,621] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:31,138] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:41,513] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:42,007] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:47,191] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:47,741] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:49,881] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:50,340] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:51,456] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:51,992] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:53,107] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:53,601] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:54,718] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:55,185] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:00:56,286] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:00:56,703] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:01:21,258] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:01:21,854] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:01:22,961] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:01:23,424] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:01:24,534] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:01:25,019] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:01:28,173] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/models.py changed, reloading.
+[2026-02-19 18:01:28,723] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:05:52,408] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-19 18:05:52,987] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:05:55,125] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-19 18:05:55,636] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:05:56,746] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-19 18:06:03,075] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-19 18:06:55,730] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:00:23,145] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:00:23,805] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:00:52,518] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:00:53,051] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:01:02,290] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:01:02,797] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:01:05,939] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:01:06,402] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:01:45,357] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:01:46,000] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:01:49,177] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:01:49,739] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:02:09,747] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:03:09,052] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:03:09,614] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:03:22,984] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:03:23,509] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:03:28,703] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:03:29,477] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:03:39,796] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:03:40,401] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:03:45,603] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/middlewares/request_log_middleware.py changed, reloading.
+[2026-02-21 10:03:46,153] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:10:52,381] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-21 10:10:52,921] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:11:02,174] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-21 10:11:02,617] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:11:07,749] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/urls.py changed, reloading.
+[2026-02-21 10:11:08,226] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:11:58,312] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:11:58,876] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:12:02,023] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:12:02,489] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:12:04,610] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:12:05,055] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:21:07,599] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:21:08,458] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:14,030] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:14,547] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:19,725] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:20,216] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:22,305] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:22,756] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:23,821] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:24,261] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:27,407] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:27,847] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:29,922] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:30,491] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:31,552] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:32,007] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:34,138] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:34,600] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:35,698] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:36,122] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:23:52,508] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:23:53,097] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:24:13,595] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:24:14,135] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:25:03,841] WARNING django.request log.py:246 log_response() - Bad Request: /auth/verify/
+[2026-02-21 10:26:37,404] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/backend_nocode/settings.py changed, reloading.
+[2026-02-21 10:26:51,306] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:30:09,233] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:30:09,732] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:30:28,314] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:30:28,868] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:30:41,310] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:30:41,823] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:30:44,010] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:30:44,467] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:30:57,836] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:30:58,391] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:31:00,572] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:31:01,033] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:31:12,404] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:31:12,953] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:31:22,674] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-21 10:32:23,564] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:32:24,124] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:32:27,314] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:32:27,772] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:32:29,267] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/verify/
+[2026-02-21 10:32:39,230] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:32:39,861] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:32:43,036] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:32:43,564] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:32:44,575] WARNING django.request log.py:246 log_response() - Bad Request: /auth/verify/
+[2026-02-21 10:32:52,051] WARNING django.request log.py:246 log_response() - Bad Request: /auth/verify/
+[2026-02-21 10:32:58,851] WARNING django.request log.py:246 log_response() - Bad Request: /auth/verify/
+[2026-02-21 10:33:13,922] ERROR django.request log.py:246 log_response() - Internal Server Error: /auth/send-request/
+[2026-02-21 10:33:25,598] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:33:26,244] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:33:28,431] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:33:28,969] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:34:24,240] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:34:24,792] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:34:33,065] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:34:33,561] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:34:35,744] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:34:36,238] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:34:37,303] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:34:37,740] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:34:51,016] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:34:51,531] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:34:57,686] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:34:58,217] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:19,898] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:20,469] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:25,691] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:26,140] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:31,351] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:31,838] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:33,910] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:34,358] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:38,559] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:39,147] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:41,313] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:41,836] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:42,987] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:43,422] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:45,582] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:46,072] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:50,284] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:50,795] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:35:51,862] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:35:52,333] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:36:04,680] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:36:05,205] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:36:08,389] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:36:08,916] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:36:18,364] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:36:19,198] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:36:27,538] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:36:28,097] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:36:32,314] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:36:32,780] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:36:59,441] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:37:38,399] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:37:39,364] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:37:40,563] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:37:41,363] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:37:47,661] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:37:48,224] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:37:49,366] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:37:49,778] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:37:57,024] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:37:57,510] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:00,679] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:01,158] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:02,311] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:02,831] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:07,061] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:07,524] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:12,743] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:13,207] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:19,459] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:19,934] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:21,103] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:21,525] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:30,800] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:31,266] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:32,413] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:32,833] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:34,946] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:35,386] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:38,472] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:38,936] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:50,259] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:50,784] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:38:56,997] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:38:57,431] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:39:10,805] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:39:11,313] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:39:21,627] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:39:22,104] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:39:28,338] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:39:28,804] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:54:46,460] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/handlers.py changed, reloading.
+[2026-02-21 10:54:47,052] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:54:49,177] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/handlers.py changed, reloading.
+[2026-02-21 10:54:49,800] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:55:22,547] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-21 10:55:23,345] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:55:25,468] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-21 10:55:26,043] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:57:17,201] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-21 10:57:17,726] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:57:20,926] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-21 10:57:21,524] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:57:27,876] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-21 10:57:28,425] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:57:29,620] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/builder/views.py changed, reloading.
+[2026-02-21 10:57:30,101] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:58:18,213] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:58:18,855] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:58:20,934] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:58:21,595] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:58:28,868] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:58:29,430] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:58:30,585] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:58:31,683] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:58:33,901] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:58:34,400] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-21 10:58:37,599] INFO django.utils.autoreload autoreload.py:265 trigger_reload() - /usr/src/app/accounts/views.py changed, reloading.
+[2026-02-21 10:58:38,172] INFO django.utils.autoreload autoreload.py:667 run_with_reloader() - Watching for file changes with StatReloader
+[2026-02-25 19:03:37,715] INFO builder.views views.py:23 list() - response from handler: Success, [{'id': 1, 'name': 'p0', 'created_at': '2025-12-25T08:42:45.196255Z', 'is_published': True, 'url': None, 'user': 1}, {'id': 2, 'name': 'p1', 'created_at': '2025-12-25T08:54:47.659743Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 3, 'name': 'p1', 'created_at': '2026-02-17T18:53:22.578103Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 4, 'name': 'p1', 'created_at': '2026-02-17T19:08:05.560783Z', 'is_published': False, 'url': None, 'user': 1}, {'id': 5, 'name': 'p5', 'created_at': '2026-02-18T18:06:48.474882Z', 'is_published': True, 'url': None, 'user': 1}], 200
+[2026-02-25 19:30:20,224] WARNING django.request log.py:246 log_response() - Method Not Allowed: /
+[2026-02-25 19:30:47,062] WARNING django.request log.py:246 log_response() - Not Found: /auth
+[2026-02-25 19:32:08,510] WARNING django.request log.py:246 log_response() - Not Found: /auth/
