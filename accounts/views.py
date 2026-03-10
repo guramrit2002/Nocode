@@ -2,6 +2,7 @@ import secrets
 import hashlib
 from datetime import timedelta
 from django.utils import timezone
+from django.conf import settings
 from django.contrib.auth.models import User
 from django.contrib.auth.hashers import make_password
 from rest_framework.viewsets import ViewSet
@@ -9,6 +10,7 @@ from rest_framework import status as status_code
 from rest_framework_simplejwt.tokens import RefreshToken
 from backend_nocode.utils import response
 from accounts.models import CommunicationLog
+from accounts.utils import send_login_link
 
 
 
@@ -49,9 +51,11 @@ class MagicLinkViewSet(ViewSet):
             )
 
             # 4. Send RAW token in URL
-            url = f"http://localhost:8030/login?token={raw_token}"
+            url = f"{settings.FRONTEND_URL}/verify?token={raw_token}"
 
-            # TODO: send email here
+            # 5. Send email with magic link
+            send_login_link(name, email, url)
+            
             return response(
                 message="login link has been sent.",
                 data={"url": url, "expiry_time": expires_at},
