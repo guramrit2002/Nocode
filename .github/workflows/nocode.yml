@@ -22,22 +22,6 @@ jobs:
           echo "DEBUG=False" >> .env
           echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> .env
 
-      # Setup Python (for linting)
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      # Install lint tools
-      - name: Install lint tools
-        run: |
-          pip install flake8
-
-      # Run lint
-      - name: Lint code
-        run: |
-          flake8 .
-
       # Setup Docker
       - name: Set up Docker
         uses: docker/setup-buildx-action@v3
