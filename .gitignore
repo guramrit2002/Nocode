@@ -1,0 +1,19 @@
+# Environment
+.env
+
+# Logs
+logs/
+
+# SQLite database
+db.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Django static
+staticfiles/
+media/
+
+# OS files
+.DS_Store
